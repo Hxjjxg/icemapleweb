@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #0f1117;
+    color: #e0e0e0;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    padding: 20px 0;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.header-line {
+    height: 1px;
+    background-color: #444;
+    margin: 10px 0 30px 0;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+h2 {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.welcome h2 {
+    text-align: center;
+    font-size: 2rem;
+    margin: 30px 0;
+}
+
+.post {
+    background-color: #d0d0d0;
+    color: #333;
+    margin-bottom: 10px;
+    padding: 15px 20px;
+    border-radius: 3px;
+}
+
+.post-date {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.post-content {
+    line-height: 1.5;
+}
+
+.new-posts h2 {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+}
+
+.language-sections, .site-links {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+.language-item, .site-link {
+    display: flex;
+    align-items: center;
+    padding: 15px 20px;
+    background-color: #d0d0d0;
+    color: #333;
+}
+
+.language-item.dark, .site-link.dark {
+    background-color: #2a2a36;
+    color: #e0e0e0;
+}
+
+.language-icon {
+    margin-right: 15px;
+    font-size: 1.5rem;
+}
+
+.language-name {
+    font-size: 1.1rem;
+    color: #ff3366;
+}
+
+.site-link a {
+    color: #ff3366;
+    text-decoration: none;
+    font-size: 1.1rem;
+}
+
+.expand {
+    padding: 10px 20px;
+    color: #ff3366;
+    cursor: pointer;
+    text-align: center;
+}
+
+.collection h2, .other-sites h2 {
+    position: relative;
+    padding-left: 15px;
+    border-left: 5px solid #444;
+}
+
+@media (max-width: 768px) {
+    .container {
+        padding: 10px;
+    }
+    
+    header h1 {
+        font-size: 2rem;
+    }
+    
+    .welcome h2 {
+        font-size: 1.5rem;
+    }
+}
